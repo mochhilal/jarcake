@@ -1,3 +1,12 @@
+<?php
+	require_once("connect.php");
+	session_start();
+	if(!isset($_SESSION['email'])) {
+		header('location:login.php'); 
+	} else { 
+		$email = $_SESSION['email']; 
+	}
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -11,7 +20,7 @@
     <div class="topNavigationLink"><a href="index.php">Beranda</a></div>
     <div class="topNavigationLink"><a href="jarcake.php">Jar Cake</a></div>
     <div class="topNavigationLink"><a href="pembelian.php">Pembelian</a></div>
-    <div class="topNavigationLink"><a href="hubingi.php">Hubungi</a></div>
+    <div class="topNavigationLink"><a href="hubungi.php">Hubungi</a></div>
   </div>
   <div id="mainPicture">
     <div class="picture">
