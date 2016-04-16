@@ -1,3 +1,6 @@
+<?php
+	require_once("connect.php");
+?>
 <!DOCTYPE html
 <html lang="en">
 	<head>
@@ -10,7 +13,6 @@
 	    <div class="topNaviagationLink"><a href="index.php">Beranda</a></div>
 			<div class="topNaviagationLink"><a href="jarcake.php">Jar Cake</a></div>
 			<div class="topNaviagationLink"><a href="pembelian.php">Pembelian</a></div>
-			<div class="topNaviagationLink"><a href="hubungi.php">Hubungi</a></div>
 		</div>
 		<div id="mainPicture">
 		  <div class="picture">
