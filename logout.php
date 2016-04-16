@@ -1,7 +1,7 @@
 <?php
 session_start();
+$_SESSION = array();
+unset($_SESSION);
 session_destroy();
 header('location:index.php');
 ?>
-<h2>Anda telah berhasil logout..</h2>
-Silahkan klik <a href="index.php"><b>disini</b></a> untuk login kembali
