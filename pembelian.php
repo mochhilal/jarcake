@@ -33,7 +33,7 @@ $hasil = mysql_fetch_array($query);
            <div class="contentTitle">Input Data Pembelian</div>
            <div class="contentText"><p></p><br/>
            <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-           <form action="action_input.php" method="POST" enctype="multipart/form-data">
+       <form action="action_input.php" method="POST" enctype="multipart/form-data">
            <tr>
                <td height="40">&nbsp;</td>
                <td> ID Pembelian </td>
@@ -50,11 +50,50 @@ $hasil = mysql_fetch_array($query);
                <td>
                <select name="Jar Cake">
                <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
-               <option value="">Silahkan Pilih</option>
+               <option value="Oreo">Oreo</option>
+               <option value="Revelvet">Redvelvet</option>
+               <option value="Banana">Banana</option>
+               <option value="Chococheese">Chococheese</option>
+               <option value="Durian">Durian</option>
+               <option value="Greentea">Greentea</option>
+               <option value="Avocado">Avocado</option>
+               <option value="Avomisu">Avomisu</option>
+               <option value="Tiramisu">Tiramisu</option>
+               <option value="Strawberry">Strawberry</option>
+               <option value="Blueberry">Blueberry</option>
+               <option value="Fudge">Fudge</option>
+               </select>
+               <input type+"submit" name"enter" value="Enter">
+              </td>
+             </tr>
+            </form>
+            <form action="" method="post">
+                <tr>
+               <td height="40">&nbsp;</td>
+               <td> Alamat </td>
+               <td><input type="text" name="alamat" size="20"></td>
+                </tr>
+                <tr>
+               <td height="36">&nbsp;</td>
+               <td> No Telepon </td>
+               <td><input type="text" name="notelp" size="10"></td>
+                </tr>
+                <tr>
+               <td height="36">&nbsp;</td>
+               <td> Tanggal Pembelian </td>
+               <td><input type="text" name="tglpembelians" size="20"></td>
+                </tr>
+                <tr>
+               <td height="60">&nbsp;</td>
+               <td> Alamat </td>
+               <td><input type="submit" name="submit" value="submit">&nbsp;&nbsp;&nbsp;
+               <input type="reset" name="reset" value="reset"></td>
+                </tr>
+                </table>
+                </form>
+</div>
+<div>
+    <div id="footer"><a href="http://www.aszx.net">web development</a>by <a href="http://www.bryantsmith.com">bryant smith</a>
+</div>
+</body>
+</html>
